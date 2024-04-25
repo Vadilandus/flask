@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dealer_center</title>
+</head>
+<body>
+{% extends 'base.html' %}
+{% block content %}
+<div class="car">
+<h1>У нас на выбор есть разных марок машины:</h1>
+    <div class="cr1">
+        <p><a href="audi" onclick="a = 1;">Audi</a></p> <img src="#" width="90px" alt="no">
+        <p><a href="bmw" onclick="a = 2;">BMW</a></p> <img src="audi.png" width="90px" alt="no">
+    </div>
+
+    <div class="cr1">
+        <p><a href="lada" onclick="a = 3; ">Lada</a></p> <img src="audi.png" width="90px" alt="no">
+        <p><a href="hyundai" onclick="a = 4; ">Hyundai</a></p> <img src="audi.png" width="90px" alt="no">
+    </div>
+    <div class="cr1">
+            <p><a href="toyota" onclick="a = 5">Toyota</a></p> <img src="audi.png" width="90px" alt="no">
+            <p><a href="ford" onclick="a = 6">Ford</a></p> <img src="audi.png" width="90px" alt="no">
+    </div>
+</div>
+
+
+<div class="stroke"></div>
+<div>
+    <div class="card"><h2>Lada 1</h2></div>
+    <div class="card"><h2>Lada 2</h2></div>
+    <div class="card"><h2>Lada 3</h2></div>
+</div>
+<div>
+    <div class="card"><h2>Lada 1</h2></div>
+    <div class="card"><h2>Lada 2</h2></div>
+    <div class="card"><h2>Lada 3</h2></div>
+</div>
+
+<!--<div class="block1">-->
+<!--<h2>Наша дилерская компания - это предприятие, специализирующееся на продаже автомобилей S-класса.<br>-->
+<!--    Мы являемся посредниками между производителями и потребителями, предоставляя клиентам широкий выбор автомобилей различных марок и моделей.<br><br>-->
+
+<!--Одним из главных плюсов работы с нами является возможность приобретения автомобилей непосредственно от производителя,<br>-->
+<!--    что позволяет получить автомобиль по более выгодной цене.<br><br> Кроме того, наша компания предоставляет-->
+<!--    клиентам различные услуги, такие как техническое обслуживание,-->
+<!--    гарантийное обслуживание, консультации по выбору автомобиля и т.д.-->
+<!--    Это делает процесс покупки автомобиля более удобным и прозрачным для клиентов.</h2>-->
+<!--</div>-->
+{% endblock %}
+</body>
+</html>
